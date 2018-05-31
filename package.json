@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-2column-portfolio",
-  "description": "Gatsby 2 Column Portfolio Starter",
+  "name": "deakin-portfolio",
+  "description": "Portfolio site for Deakin SIT302 Project Delivery",
   "repository": {
     "type": "git",
-    "url": "https://github.com/praagyajoshi/gatsby-starter-2column-portfolio"
+    "url": "https://github.com/dotfold/deakin-portfolio"
   },
   "license": "MIT",
   "scripts": {
