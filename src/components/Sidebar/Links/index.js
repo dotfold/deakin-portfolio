@@ -4,34 +4,26 @@ import './style.scss'
 import 'font-awesome/css/font-awesome.min.css'
 
 class Links extends Component {
-  render() {
+  render () {
     return (
-      <div className="links">
-        <ul className="icons-list">
-          <li className="icon">
-            <a href="https://www.github.com/praagyajoshi" target="_blank">
-              <i className="fa fa-github"></i>
+      <div className='links'>
+        <ul className='icons-list'>
+          <li className='icon'>
+            <a href='https://www.github.com/dotfold' target='_blank'>
+              <i className='fa fa-github' />
             </a>
           </li>
-          <li className="icon">
-            <a href="https://www.twitter.com/praagyajoshi" target="_blank">
-              <i className="fa fa-twitter"></i>
+          <li className='icon'>
+            <a href='https://www.twitter.com/dotfold' target='_blank'>
+              <i className='fa fa-twitter' />
             </a>
           </li>
-          <li className="icon">
-            <a href="https://www.linkedin.com/in/praagyajoshi" target="_blank">
-              <i className="fa fa-linkedin"></i>
-            </a>
-          </li>
-          <li className="icon">
-            <a href="mailto:hello@praagya.com" target="_blank">
-              <i className="fa fa-envelope"></i>
+          <li className='icon'>
+            <a href='https://www.linkedin.com/in/jamesmcnamee' target='_blank'>
+              <i className='fa fa-linkedin' />
             </a>
           </li>
         </ul>
-        <div className="small">
-          Built with ❤️ using <a href="https://www.gatsbyjs.org/" target="_blank">GatsbyJS</a>
-        </div>
       </div>
     )
   }
