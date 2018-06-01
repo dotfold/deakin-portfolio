@@ -6,30 +6,40 @@ $main-width: 65%;
 $main-margin-right: 35%;
 $aside-width: 35%;
 
+a {
+  text-decoration: none;
+}
+
 .main {
   margin: 0 auto;
 
   .article-content {
     padding: 28px 0 28px 0;
+
+    a,
+    a:visited {
+      color: rgba(227, 114, 54, 0.9);
+    }
+
+    a:hover {
+      color: rgba(227, 114, 54, 1);
+    }
   }
 
-  a {
-    text-decoration: none;
-    transition: all 0.25s ease;
-    -webkit-transition: all 0.25s ease;
-  }
-
-  a,
-  a:visited {
+  .link,
+  .link:visited {
     color: black;
   }
 
-  a:hover {
+  .link:hover {
     color: rgba(0, 0, 0, 0.7);
   }
 
   .link {
     font-weight: 600;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
   }
 
   h3 {
