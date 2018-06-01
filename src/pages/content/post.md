@@ -28,7 +28,7 @@ My first task was to setup the project for a containerized environment, which wo
 
 Once deployment and runtime environment concerns had been addressed, I moved onto UI development.
 
-I had already a good idea of how to get a boilerplate in place quickly, that would allow me to focus on the core feature development. I chose to use React since that is the JavaScript view framwork I work in every day. This would enable me to move quickly, and again, focus on the business logic rather than the intricacies of implementation.
+I already had a good idea of how to get a boilerplate in place quickly, that would allow me to focus on the core feature development. I chose to use React since that is the JavaScript view framwork I work in every day. This would enable me to move quickly, and again, focus on the business logic rather than the intricacies of implementation.
 
 The end result can be seen both on the [project page](/project) and the source code is public on [GitLab](https://gitlab.com/SIT302-Data-Logger/PLC-DataLogger). In the end, I solely implemented nearly all of the UI:
 

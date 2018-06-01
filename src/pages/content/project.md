@@ -18,7 +18,7 @@ The primary goal of this system is to be able to accept timeseries data in as cl
 
 The requirement to be able to accept data from a range of PLC hardware meant that the system design had to be flexible. This was accomplished by using a common driver interface, that defines ingress points and data communication protocols. The data is fed into a message queue, which is primarily to allow the influxDB instance to pull the data for persistence. The message queue approach also allows the UI to connect to the data stream for realtime charting.
 
-The administration interface is a typical client-server architecture backed by a RESTful API. The client is a Single Page Application written from scratch primarily using React.js, a modern view framework for JavaScript.
+The administration interface is a typical client-server architecture backed by a RESTful API. The client is a Single Page Application written from scratch primarily using React, a modern view framework for JavaScript.
 
 Because the system is designed with a microservice approach, each piece is containerized and orchestrated using docker-compose.
 
