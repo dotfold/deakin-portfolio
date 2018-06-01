@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{111:function(e,t){e.exports={data:{site:{siteMetadata:{title:"James McNamee - Portfolio",description:"Deakin SIT302 Project Delivery Portfolio",keywords:""}}},layoutContext:{}}}});
+//# sourceMappingURL=path----1544a210e4f29dfe6815.js.map
