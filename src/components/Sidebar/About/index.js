@@ -7,7 +7,8 @@ class About extends Component {
     return (
       <div className='about'>
         <div className='bio'>
-          Stuff about me
+          <p>Senior Cloud Software Engineer @ NVIDIA</p>
+          <p>Mountain View, CA</p>
         </div>
       </div>
     )

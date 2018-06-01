@@ -9,7 +9,6 @@ class TemplateWrapper extends React.Component {
   render () {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const siteKeywords = get(this, 'props.data.site.siteMetadata.keywords')
-    const siteURL = get(this, 'props.data.site.siteMetadata.url')
     const siteDescription = get(
       this,
       'props.data.site.siteMetadata.description'
@@ -25,10 +24,6 @@ class TemplateWrapper extends React.Component {
             { name: 'description', content: siteDescription },
             { name: 'keywords', content: siteKeywords }
           ]}
-          // link={[
-          //   { rel: 'icon', type: 'image/png', sizes: '16x16', href: favicon16 },
-          //   { rel: 'icon', type: 'image/png', sizes: '32x32', href: favicon32 }
-          // ]}
         />
         <div className='template-wrapper-children'>
           {children()}
@@ -46,7 +41,6 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         description
-        url
         keywords
       }
     }
