@@ -44,5 +44,6 @@ module.exports = {
     title: 'James McNamee - Portfolio',
     description: 'Deakin SIT302 Project Delivery Portfolio',
     keywords: ''
-  }
+  },
+  pathPrefix: '/deakin-portfolio'
 }
