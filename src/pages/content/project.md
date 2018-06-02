@@ -8,7 +8,7 @@ title: "Projects - AKD Softwoods"
 
 #### Project Description
 
-Our client, AKD Softwoods uses Programmable Logic Controllers (PLCs) in their machinery, which captures and holds valuable information about the state of the machinery. This information is valuable because it can enable engineers to diagnose faults and inefficencies.
+Our client, AKD Softwoods uses Programmable Logic Controllers (PLCs) in their machinery, which captures and holds valuable information about the state of the machinery. This information is valuable because it can enable engineers to diagnose faults and inefficiencies.
 
 Our project aim was to deliver a system that could add connections to PLCs and set data points (tags) to log at either a defined time interval, or on a "change" event (i.e. when the data point changes from the previous value).
 
